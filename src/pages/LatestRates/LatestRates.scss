@@ -1,0 +1,45 @@
+.latest-rates {
+  //border: 1px solid black;
+  margin: 0 auto;
+  height: 100vh;
+  max-width: 1300px;
+  padding: 100px 50px 50px;
+  p {
+    color: #57C5C5;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  h2 {
+    margin-bottom: 20px;
+  }
+  &__description{
+    width: 50%;
+    color: #8C9CB1;
+    margin-bottom: 30px;
+  }
+  .table {
+    width: 100%;
+    .headings {
+    width: 50%;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #5a6068;
+    font-weight: 800;
+    }
+  }
+   > button {
+     margin-left: 40px;
+     margin-top: 25px;
+     border: 1px dashed #8C9CB1;
+     color: #8C9CB1;
+     padding: 5px;
+     border-radius: 7px;
+     outline: none;
+     background-color: white;
+     cursor: pointer;
+   }
+  
+
+}

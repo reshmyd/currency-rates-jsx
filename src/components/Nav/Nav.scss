@@ -1,0 +1,16 @@
+.nav {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo {
+    font-weight: 800;
+  }
+  .user {
+    display: flex;
+    align-items: center;
+    span {
+      margin-right: 10px;
+    }
+  }
+}
